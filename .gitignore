@@ -1,0 +1,13 @@
+$RECYCLE.BIN/
+.DS_Store
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+/jobs.db
+*.nupkg
+*.log
+*.log.full
+
+automatic/_output/
