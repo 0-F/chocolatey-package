@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>SciTE4AutoIt3</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Neil Hodgson,Jos van der Zande</authors>
+    <summary>SciTE for AutoIt3</summary>
+    <description>SciTE4AutoIt3 contains SciTE, wrapped into a single installer with all needed configuration settings and lots of utility programs like AutoIt3Wrapper, SciTEConfig, Tidy, Au3Stripper etc to enhanced SciTE for use with AutoIt3.</description>
+    <projectUrl>https://www.autoitscript.com/site/autoit-script-editor/</projectUrl>
+    <tags>scite4autoit autoit scite editor</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.scintilla.org/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/0-F/chocolatey-package/master/icons/scite4autoit3.png</iconUrl>
+    <dependencies>
+      <dependency id="autoit" version="[3.0,4.0)" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
