@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rapidcrc-unicode</id>
+    <title>RapidCRC Unicode</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Sebastian Ewert</authors>
+    <owners>pifpaf</owners>
+    <summary> Windows tool to quickly create and verify hash checksums.</summary>
+    <description>[RapidCRC](http://rapidcrc.sourceforge.net/ "RapidCRC") is an open source CRC/MD5/SHA hashing program. I've extended the current unicode support to allow writing of unicode .sfv/.md5/.sha1/.sha256/.sha512 files, which can be turned on/off through the settings page. Unicode sfv files are written as UTF-16LE with BOM or UTF-8 (with or without BOM), and RCRC now performs a codepage detection. I've also expanded the shell extension that was included in the sourcecode to enable all operations directly from the extension.
+
+**List of other new features:**
+
+- multithreaded hash calculations with asynchronous I/O
+- ed2k hash calculation
+- SHA hash calculation
+- job queueing
+- popup menu to copy the calculated hashes to the clipboard</description>
+    <projectUrl>http://www.ov2.eu/programs/rapidcrc-unicode</projectUrl>
+    <tags>rapidcrc hash md5 sha1 crc32 checksum</tags>
+    <copyright>GNU General Public License version 2.0 (GPLv2)</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>http://cdn.rawgit.com/0-F/chocolatey-package/master/icons/rapidcrc-unicode.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="{{PackageVersion}}" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
