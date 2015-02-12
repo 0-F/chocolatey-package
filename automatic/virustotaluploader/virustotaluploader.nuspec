@@ -10,12 +10,14 @@
     <summary>VirusTotal is a free service that analyzes suspicious files and URLs and facilitates the quick detection of viruses, worms, trojans, and all kinds of malware.</summary>
     <description>VirusTotal stores all the analyses it performs, this allows users to search for reports given an MD5, SHA1, SHA256 or URL. Search responses return the latest scan performed on the resource of interest. VirusTotal also allows you to search through the comments that users post on files and URLs, inspect our passive DNS data and retrieve threat intelligence details regarding domains and IP addresses.</description>
     <projectUrl>https://www.virustotal.com/documentation/desktop-applications/windows-uploader</projectUrl>
-    <tags>virus malware security virustotal</tags>
+    <tags>virus malware scan security virustotal</tags>
     <copyright>VirusTotal</copyright>
     <licenseUrl>https://www.virustotal.com/about/terms-of-service/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/0-F/chocolatey-package/master/icons/virustotaluploader.png</iconUrl>
-    <dependencies></dependencies>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
