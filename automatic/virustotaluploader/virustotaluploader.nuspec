@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>VirusTotal Uploader</title>
+    <version>{{PackageVersion}}</version>
+    <authors>VirusTotal</authors>
+	<owners>pifpaf</owners>
+    <summary>VirusTotal is a free service that analyzes suspicious files and URLs and facilitates the quick detection of viruses, worms, trojans, and all kinds of malware.</summary>
+    <description>VirusTotal stores all the analyses it performs, this allows users to search for reports given an MD5, SHA1, SHA256 or URL. Search responses return the latest scan performed on the resource of interest. VirusTotal also allows you to search through the comments that users post on files and URLs, inspect our passive DNS data and retrieve threat intelligence details regarding domains and IP addresses.</description>
+    <projectUrl>https://www.virustotal.com/documentation/desktop-applications/windows-uploader</projectUrl>
+    <tags>virus malware security virustotal</tags>
+    <copyright>VirusTotal</copyright>
+    <licenseUrl>https://www.virustotal.com/about/terms-of-service/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/0-F/chocolatey-package/master/icons/virustotaluploader.png</iconUrl>
+    <dependencies></dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
